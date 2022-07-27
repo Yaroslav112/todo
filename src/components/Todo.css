@@ -1,0 +1,27 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-bottom: 10px;
+}
+
+.todo-item {
+    list-style-type: none;
+}
+
+button {
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.todo-line {
+    width: 350px;
+    color: black;
+}
+
+
+

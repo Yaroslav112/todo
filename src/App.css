@@ -1,0 +1,37 @@
+.todo-form {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-input {
+  font-size: 19px;
+  font-family: sans-serif;
+  color: rgb(39, 33, 33)
+}
+
+.todo-button {
+  margin-left: 10px;
+}
+
+.todo-select {
+  margin-left: 20px;
+  padding: 14px;
+  background-color: rgb(51, 144, 172);
+  color: antiquewhite;
+}
+
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+  background: rgb(227, 152, 120);
+  background: linear-gradient(90deg, rgba(227, 152, 120, 1) 0%, rgba(76, 152, 222, 1) 100%);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 50vh;
+}

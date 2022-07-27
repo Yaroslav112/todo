@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    align-items: center;
+    
+}
+
+.todo-button {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(34, 186, 197);
+    border: none;
+    cursor: pointer;
+}
+
+.todo-input {
+    height: 30px;
+    font-family: sans-serif;
+}
+
+.filter-todo {
+    margin-left: 10px;
+    height: 30px;
+    background-color: blue;
+    color: wheat;
+    font-size: 16px;
+}
+
+.button-container {
+    width: 120px;
+    height: 39px;
+    display: flex;
+    margin-top: 10px;
+    padding: 0px;
+    justify-content: space-between;
+}
